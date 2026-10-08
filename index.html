@@ -1,0 +1,266 @@
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <meta
+        name="description"
+        content="VEXORA-AI - Your intelligent AI assistant"
+    >
+
+    <title>VEXORA-AI | Intelligent AI</title>
+
+    <link
+        rel="preconnect"
+        href="https://fonts.googleapis.com"
+    >
+
+    <link
+        rel="preconnect"
+        href="https://fonts.gstatic.com"
+        crossorigin
+    >
+
+    <link
+        href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap"
+        rel="stylesheet"
+    >
+
+    <link
+        rel="stylesheet"
+        href="style.css"
+    >
+</head>
+
+<body>
+
+    <div class="app">
+
+        <!-- SIDEBAR -->
+
+        <aside class="sidebar">
+
+            <div class="brand">
+
+                <div class="brand-logo">
+                    V
+                </div>
+
+                <div>
+                    <h1>VEXORA</h1>
+                    <span>AI INTELLIGENCE</span>
+                </div>
+
+            </div>
+
+            <button
+                class="new-chat"
+                id="newChatBtn"
+            >
+                <span>＋</span>
+                New Conversation
+            </button>
+
+            <div class="sidebar-section">
+
+                <p class="section-title">
+                    QUICK ACCESS
+                </p>
+
+                <button
+                    class="side-item"
+                    data-message="Explain artificial intelligence in simple words."
+                >
+                    <span>✦</span>
+                    AI Basics
+                </button>
+
+                <button
+                    class="side-item"
+                    data-message="Help me write professional code."
+                >
+                    <span>⌘</span>
+                    Coding
+                </button>
+
+                <button
+                    class="side-item"
+                    data-message="Give me some creative ideas."
+                >
+                    <span>◇</span>
+                    Creative
+                </button>
+
+                <button
+                    class="side-item"
+                    data-message="Help me solve a problem step by step."
+                >
+                    <span>◈</span>
+                    Problem Solving
+                </button>
+
+            </div>
+
+            <div class="sidebar-bottom">
+
+                <div class="status">
+                    <span class="status-dot"></span>
+                    VEXORA ONLINE
+                </div>
+
+                <p>
+                    Intelligent conversations,
+                    powered by AI.
+                </p>
+
+            </div>
+
+        </aside>
+
+
+        <!-- MAIN -->
+
+        <main class="main">
+
+            <!-- TOP BAR -->
+
+            <header class="topbar">
+
+                <div class="mobile-brand">
+                    <div class="small-logo">V</div>
+                    <strong>VEXORA-AI</strong>
+                </div>
+
+                <div class="model-info">
+
+                    <div class="online-dot"></div>
+
+                    <div>
+                        <strong>VEXORA-AI</strong>
+                        <span>Advanced Intelligence</span>
+                    </div>
+
+                </div>
+
+                <button
+                    class="clear-btn"
+                    id="clearBtn"
+                >
+                    Clear
+                </button>
+
+            </header>
+
+
+            <!-- CHAT -->
+
+            <section
+                class="chat-area"
+                id="chatArea"
+            >
+
+                <!-- WELCOME -->
+
+                <div
+                    class="welcome"
+                    id="welcome"
+                >
+
+                    <div class="welcome-orb">
+                        <span>V</span>
+                    </div>
+
+                    <p class="eyebrow">
+                        VEXORA INTELLIGENCE
+                    </p>
+
+                    <h2>
+                        What can I help you
+                        <span>create?</span>
+                    </h2>
+
+                    <p class="welcome-text">
+                        Ask anything. Build anything.
+                        Learn anything.
+                    </p>
+
+
+                    <div class="suggestions">
+
+                        <button
+                            class="suggestion"
+                            data-message="Explain JavaScript to me like I am a beginner."
+                        >
+                            <span>01</span>
+                            Learn JavaScript
+                        </button>
+
+                        <button
+                            class="suggestion"
+                            data-message="Create a professional website idea for me."
+                        >
+                            <span>02</span>
+                            Create a website
+                        </button>
+
+                        <button
+                            class="suggestion"
+                            data-message="Give me a creative project idea."
+                        >
+                            <span>03</span>
+                            Get an idea
+                        </button>
+
+                    </div>
+
+                </div>
+
+            </section>
+
+
+            <!-- INPUT -->
+
+            <div class="input-wrapper">
+
+                <form
+                    class="chat-form"
+                    id="chatForm"
+                >
+
+                    <textarea
+                        id="messageInput"
+                        placeholder="Message VEXORA-AI..."
+                        rows="1"
+                        autocomplete="off"
+                    ></textarea>
+
+                    <button
+                        type="submit"
+                        id="sendBtn"
+                        aria-label="Send message"
+                    >
+                        <span>➤</span>
+                    </button>
+
+                </form>
+
+                <p class="disclaimer">
+                    VEXORA-AI can make mistakes. Verify important information.
+                </p>
+
+            </div>
+
+        </main>
+
+    </div>
+
+
+    <script src="script.js"></script>
+
+</body>
+
+</html>
